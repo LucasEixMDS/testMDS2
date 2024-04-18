@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://mdsformations-website-u5520.vm.elestio.app/sitemap.xml

@@ -1,0 +1,22 @@
+[
+    {
+        "id" : "001",
+        "titre" : "Cours théoriques approfondis :",
+        "text" : "Accédez à des ressources pédagogiques complètes pour renforcer votre compréhension"
+    },
+    {
+        "id" : "002",
+        "titre" : "Vidéos de démonstrat-ion : ",
+        "text" : "Visualisez des démonstrations pratiques pour mieux assimiler les concepts clés."
+    },
+    {
+        "id" : "003",
+        "titre" : "Exercices interactifs : ",
+        "text" : "Mettez en pratique ce que vous avez appris à travers des exercices interactifs stimulants."
+    },
+    {
+        "id" : "004",
+        "titre" : "Apprentis-sage à votre rythme : ",
+        "text" : "Révisez et approfondissez vos connaissances depuis chez vous."
+    }
+]

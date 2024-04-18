@@ -1,0 +1,316 @@
+@import '../../../style/settings.scss';
+.home_temoin_container{ 
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 25px;
+
+    .home_temoin_desktop{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 5% 20px 5%;
+
+        .modal-temoin{
+            border-radius: 21px;
+            background: var(--Blanc, #ffffff);
+            box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.08);
+            margin-right: 20px;
+            height: auto;
+            margin-bottom: 20px;
+
+            .text-modal{
+                color: var(--Couleur-Principal, #7BC8CB);
+                font-family: 'poppins2';
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-left: 50px ;
+            }
+
+            .modalText{
+                display: flex;
+                justify-content: center;
+                align-items: first flex-start;
+
+                img{
+                    padding: 7px;
+                }
+                p{
+                    padding: 8px;
+                    width: 70%;
+                    font-size: 14px;
+                    font-family: 'poppins2';
+                }
+              
+            }
+
+            .temoin_modal_stars{
+                padding-left: 50px;
+            }
+        }
+
+        
+    }
+    
+    
+.h3{display:block;
+    color: var(--Gris-fonc, #4f4f4f);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: "poppins-semibold";
+    display: block;
+    
+    span{
+        color: $color-principale;
+        font-weight: 700;
+    }
+}
+
+
+
+.home_temoin{
+
+    display: flex;
+    width: 100%;
+
+    .home_temoin_left{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+
+        .home_temoin_modal_google{
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+            width: 80%;
+            height: auto;
+            border-radius: 21px;
+            background: var(--Blanc-pur, #FFF);
+            box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+            padding: 15px;
+
+            p{
+                font-size: 19px;
+                color: var(--Gris, #4F4F4F);
+                font-weight: 600;
+                font-family: "poppins-semibold";
+
+                span{
+                    font-size: 10px;
+                }
+            }
+            .google_text{
+                color: $color-principale;
+                font-size: 12px;
+                font-family: "poppins-bold";
+            }
+        }
+
+        button{
+            margin-top: 20px;
+            border: none;
+            border-radius: 100px;
+            background: var(--Blanc-1, #F2F2F2);
+             display: inline-flex;
+             padding: 4px 16px 4px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: var(--Gris, #4F4F4F);
+            transition: transform 0.2s ease-in-out;
+            &:hover{
+                background: $color-1;
+                color: rgb(0, 0, 0);
+                border: 1px solid $color-1;
+            }
+        }
+        
+    }
+
+    .home_temoin_right{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:flex-start;
+
+        .home_temoin_modal_article{
+            display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+            background-position: center ;
+            background-repeat: no-repeat;
+            border-radius: 21px;
+            width: 159px;
+            height: 240px;
+            border-radius: 21px;
+            box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+            padding: 15px;
+
+            .home_temoin_modal_mid{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                color: #ffff;
+
+                .h3{display:block;
+                    color: #FFF;
+                    padding: 0;
+                    margin-bottom: 0;
+                    font-size: 18px;
+                    width: 130px;
+                }
+                .h4{display:block;
+                    font-size: 12px;
+
+                }
+    
+            }
+
+            button{
+                margin-top: 20px;
+                margin-bottom: -10px;
+                border: none;
+            border-radius: 100px;
+            background: var(--Blanc-pur, #FFF);
+            color: rgb(0, 0, 0);
+            display: inline-flex;
+            padding: 4px 16px 4px 16px;
+            justify-content: center;
+            align-items: center;
+            }
+          
+            }
+
+            .home_temoin_right_button {
+                width: 70%;
+                display: flex;
+                
+
+            
+            button{
+                margin-top: 20px;
+            border: none;
+            border-radius: 100px;
+            background: var(--Blanc-1, #F2F2F2);
+             display: inline-flex;
+             padding: 4px 16px 4px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: var(--Gris, #4F4F4F);
+            }
+        }
+    }
+
+    .home_temoin_hide{
+        display: none;
+    }
+   
+}
+}
+
+@media screen and (min-width: 1024px){
+    .home_temoin_container{
+        padding: 10px 15% 20px 0px;
+        padding-left: 15%;
+
+        .h3{display:block;
+            width: 400px;
+        }
+        .home_temoin_desktop{
+            position: relative;
+            width: 55%;
+            top: 350px;
+            left: -0px;
+       margin-top: -350px;
+            display: flex;
+            flex-direction: row;
+            padding: 0;
+
+            .modal-temoin{
+                border-radius: 21px;
+                background: var(--Blanc, #ffffff);
+                box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.08);
+                margin-right: 20px;
+                height: auto;
+                margin-bottom: 0;
+
+                .text-modal{
+                    color: var(--Couleur-Principal, #7BC8CB);
+                    font-family: 'poppins2';
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding-left: 50px ;
+                }
+
+                .modalText{
+                    display: flex;
+                    justify-content: center;
+                    align-items: first flex-start;
+
+                    img{
+                        padding: 7px;
+                    }
+                    p{
+                        padding: 8px;
+                        width: 70%;
+                        font-size: 14px;
+                        font-family: 'poppins2';
+                    }
+                  
+                }
+
+                .temoin_modal_stars{
+                    padding-left: 50px;
+                }
+            }
+
+            
+        }
+
+        .home_temoin{
+            flex-direction: row-reverse;
+            background-color: #F2F2F2;
+            border-radius: 20px 0 0 20px;
+            position: relative;
+            left: 56.5%;
+            width: 65%;
+            padding: 30px 20px 20px 20px;
+            height: 350px;
+
+            .home_temoin_left{    
+                width: 70%;
+
+                .home_temoin_modal_button{
+                    button{
+                        background-color: #ffff;
+                    }
+                }
+            }
+
+            .home_temoin_right{
+               width: 33%;
+
+               .home_temoin_right_button{
+                button{
+                    background-color: #ffff;
+                }
+               }
+            }
+
+            .home_temoin_hide{
+                display: block;
+                width: 40%;
+            }
+        }
+    }
+}

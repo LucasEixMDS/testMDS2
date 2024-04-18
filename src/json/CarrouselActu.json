@@ -1,0 +1,49 @@
+[
+    {
+        "id" : "001",
+        "idElement" : ["formation"],
+        "formationURL" : ["massage-du-monde","masseur-professionnel"],
+        "articleLink": "/articles/bien-etre",
+        "photo" : "/hommeviolet.webp",
+        "text" : "Comment se former à la réflexologie ?",
+        "date" : "12 juin 2023",
+        "buttonColor" : "#4F4F4F"
+    },
+    {
+        "id" : "002",
+        "idElement" : ["formation"],
+        "formationURL" : ["massage-du-monde","masseur-professionnel"],
+        "articleLink": "/articles/comment-devenir-masseur",
+        "photo" : "/femmebleu.webp",
+        "text" : "Comment devenir masseur'se ?",
+        "date" : "12 juin 2023",
+        "buttonColor" : "#4F4F4F"
+    },
+    {
+        "id" : "003",
+        "idElement" : ["formation"],
+        "articleLink": "/articles/comment-financer-une-formation",
+        "photo" : "/femmejaune.webp",
+        "text" : "Comment financer une formation ?",
+        "date" : "12 juin 2023",
+        "buttonColor" : "#4F4F4F"
+    },
+    {
+        "id" : "004",
+        "idElement" : ["formation"],
+        "articleLink": "/articles/temoignage-camille-reflexologue",
+        "photo" : "/femmebleu.webp",
+        "text" : "Témoignage de camile, reflexologue",
+        "date" : "12 juin 2023",
+        "buttonColor" : "#4F4F4F"
+    },
+    {
+        "id" : "005",
+        "idElement" : ["formation"],
+        "articleLink": "/articles/decouvrez-le-metier-de-reflexologue",
+        "photo" : "/femmejaune.webp",
+        "text" : "Decouvrez le metier de reflexologue",
+        "date" : "12 juin 2023",
+        "buttonColor" : "#4F4F4F"
+    }
+]

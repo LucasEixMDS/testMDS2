@@ -1,0 +1,57 @@
+[ 
+    {
+        "id" : "001",
+        "idElement" : ["formation", "courte"],
+        "formationLink" : "maquillage-permanent",
+        "formationURL": "/maquillage-permanent",
+        "name" : "Maquillage permanent",
+        "icon" : "/bouche.svg",
+        "photo" : "/maquillage.webp",
+        "text" : "Maquillage permanent",
+        "buttonColor" : "#E9464F"
+    },
+    {
+        "id" : "005",
+        "idElement" :  ["certification", "formation", "distanciel", "vae"],
+        "formationLink" : "fpa",
+        "formationURL": "/fpa",
+        "name" : "Formateur professionnel pour adulte",
+        "icon" : "/professeur.svg",
+        "photo" : "/formateur.webp",
+        "text" : "Formateur professionnel pour adultes",
+        "buttonColor" : "#FECA35"
+    },
+    {
+        "id" : "008",
+        "idElement" :  ["formation", "courte"],
+        "formationLink" : "extension-de-cils",
+        "formationURL": "/extension-de-cils",
+        "name" : "Extension de cils",
+        "icon" : "/eyes.svg",
+        "photo" : "/extension.webp",
+        "text" : "Extension de cils",
+        "buttonColor" : "#F195A8"
+    },
+    {
+        "id" : "009",
+        "idElement" :  ["formation", "courte"],
+        "formationLink" : "fo",
+        "formationURL": "/fo",
+        "name" : "Formateur occasionnel",
+        "icon" : "/femmeProfesseur.svg",
+        "photo" : "/FO.webp",
+        "text" : "Formateur ocasionnel",
+        "buttonColor" : "#3D56A7"
+    },
+    {
+        "id" : "010",
+        "idElement" :  ["formation", "courte"],
+        "formationLink" : "sst",
+        "formationURL": "/sst",
+        "name" : "Sauveteur secouriste du travail",
+        "icon" : "/pompier.svg",
+        "photo" : "/SST.webp",
+        "text" : "Sauveteur secouriste du travail",
+        "buttonColor" : "#A8BCC0"
+    }
+]

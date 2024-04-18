@@ -1,0 +1,277 @@
+[
+    {
+        "id": "0001",
+        "formationLink" : "page-reflexologue",
+        "colorFormation" : "#64B768",
+        "emoji" : "/pied.svg",
+        "programme" : "/programmeReflexologue.pdf",
+        "hasPlannings": true,
+        "certifiant": "Certifiant",
+        "title":"Formation en reflexologie - Mélodie des Sens",
+        "metaDescription":"Devenez réflexologue avec notre formation de socio-réflexologie. 314 heures de formations. Financement jusqu'à 100%.",
+        "keywords":"",
+        "propretyDescription":"",
+        "ratingValue":"4,8",
+        "reviewCount":"217",
+        "fichette":{
+            "time1": "217 heures de formation",
+            "time2": "154 heures pratique, 27 heures en visios et 36 heures en autonomie",
+            "lieu": "33 Blanche Lande 44521 Oudon et 51 Rue de Gouédic, 22000 Saint-Brieuc",
+            "tarifs": "à partir de 3 100 €",
+            "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+            "titreVae": "VAE",
+            "vae": "Formation non disponible à la VAE"
+        },
+        "header": {
+            "title": "Formation de Socio-Réflexologie",
+            "subtitle": "Connaissance pratique en réflexologie",
+            "imagePath": "/reflexologue.webp",
+            "imageAltText": "Révélez votre potentiel en réflexologie",
+            "description": "Êtes-vous passionné par le bien-être ? ",
+            "description2" : "Vous souhaitez aider les autres à se sentir mieux et atteindre un état de relaxation ?",
+            "description3" : "Alors, ne cherchez plus !",
+            "description4" : "Notre formation au métier de reflexologie est spécialement conçue pour vous aider à atteindre vos objectifs professionnels tout en épanouissant votre passion pour le bien-être.",
+            "description5" : ""
+        },
+        "objectives": {
+            "title": "Après notre formation ::color:: de reflexologie, ::color:: vous serez capable de :",
+            "list": [
+                {
+                    "main": "Maîtriser les bases de la réflexologie",
+                    "subList": [
+                        "Apprenez l'anatomie et la physiologie du corps humain",
+                        "Découvrez les zones réflexes et leur correspondance avec les organes ou les systèmes du corps",
+                        "Apprenez les différentes techniques de stimulation des zones réflexes",
+                        "Soyez conscient des contre-indications à la réflexologie"
+                    ]
+                },
+                {
+                    "main": "Pratiquer des séances professionnelles de réflexologie",
+                    "subList":[
+                        "Soyez formé par des professionnels expérimentés",
+                        "Apprenez à adapter vos traitements aux besoins individuels de vos clients",
+                        "Respectez les normes d'hygiène et de sécurité"
+                    ]
+                },
+                {
+                    "main": "Adapter vos traitements aux besoins individuels",
+                    "subList":[
+                        "Prenez en compte l'âge, l'état de santé et les objectifs de votre client",
+                        "Utilisez une approche holistique pour favoriser le bien-être global de votre client"
+                    ]
+                },
+                {
+                    "main":"Utiliser les zones réflexes pour favoriser le bien-être",
+                    "subList":[
+                        "Soulagez les tensions physiques et émotionnelles",
+                        "Améliorez la circulation sanguine et lymphatique",
+                        "Renforcez le système immunitaire",
+                        "Renforcez la relaxation et le sommeil"
+                    ]
+                },
+                {
+                    "main": "Contribuer au mieux-être global de vos clients",
+                    "subList":[
+                        "Offrez une expérience de bien-être complète et personnalisée",
+                        "Aidez vos clients à atteindre leurs objectifs de santé et de bien-être"
+                    ]
+                } 
+            ]
+        },
+        "pricing": {
+            "completForm" : "5 400 €",
+            "registrationFee": "80 €",
+            "examFee": "0 €",
+            "paymentOption": "sans frais supplémentaires",
+            "financementPerso" : "3 700 €",
+            "block1": "3 100 €",
+            "block2": "3 500 €",
+            "block3": "",
+            "personalBlock1": "2 700 €",
+            "personalBlock2": "2 800 €",
+            "personalBlock3": ""
+        },
+        "program": {
+            "title": "Programme et planning de formation",
+            "blocks": [
+                {
+                    "title": "Les bases de la rélfexologie plantaire et palmaire",
+                    "hours": "160 heures →",
+                    "modalities": "126 h autonomie et 34 h de visio",
+                    "content": [
+                        "Accueillir le client dans son espace de travail pour qu’il se sente pris en charge et mis en confiance.",
+                        "Questionner la personne pour identifier la raison de la séance en prenant en compte le motif des troubles qui se manifestent sous formes émotionnelles et physiques afin de réaliser le bilan réflexologique.",
+                        "Mettre en place une charte pour identifier avant la séance si la personne à d’éventuelles contre-indications empêchant une ou plusieurs approches de réflexologie (palmaire, plantaire, faciale et auriculaire).",
+                        "Élaborer un protocole de réflexologie pour traiter les zones douloureuses en présentant au client le déroulement de la séance."
+                    ]
+                },
+                {
+                    "title": "Pratique (Bloc 2 ) en présentiel : réflexologie plantaire, palmaire, faciale et auriculaire",
+                    "hours": "154 heures ",
+                    "modalities": "de pratique",
+                    "content": [
+                        "Installer le client pour recevoir la séance en respectant les règles d’hygiène et déontologique du métier.",
+                        "Dérouler le protocole de réflexologie afin de répondre au bilan réflexologique, en identifiant les zones sensibles pour répondre à la demande du client.",
+                        "Stimuler les zones réflexes qui sont en correspondance avec les parties du corps afin de soulager les tensions par la mise en œuvre de techniques spécifiques de digito-pressions de la réflexologie.",
+                        "Adapter les techniques de réflexologie spécifiques pour stimuler les parties sensibles du corps en ajustant la pression, le rythme et la durée du geste.",
+                        "Sélectionner et appliquer des produits complémentaires pour renforcer les techniques de digito-pression en apportant un confort et en soulageant les douleurs liées à la manipulation.",
+                        "Contrôler la pression de son geste tout au long de la séance pour le maintien du bien-être de la personne en l’observant et en la questionnant régulièrement."
+                    ]
+                },
+                {
+                    "title": "",
+                    "hours": "",
+                    "modalities": "",
+                    "content": [
+                        "",
+                        "",
+                        ""
+                    ]
+                }
+            ]
+        },
+        "additionalProgram": {
+            "blocks": [
+              {
+                "title": "Quels sont les prérequis pour devenir reflexologie ?",
+                "hours": "",
+                "modalities": "",
+                "content": [
+                  "Il n'y a pas de prérequis spécifiques pour commencer une formation en réflexologie, mais un intérêt pour le bien-être, la santé holistique, et une volonté d'aider les autres sont essentiels. Une formation certifiante peut ensuite vous donner les compétences et la légitimité nécessaires pour pratiquer."
+                ]
+              },
+              {
+                "title": "Quelles sont les différentes spécialisations en réflexologie ?",
+                "hours": "",
+                "modalities": "",
+                "content": [
+                  "La réflexologie plantaire (pieds), palmaire (mains), et crânienne (tête) sont les plus communes, mais il existe aussi des spécialisations comme la réflexologie faciale et auriculaire (oreilles), chacune offrant des approches uniques pour stimuler la guérison et le bien-être."
+                ]
+              },
+              {
+                "title": "Comment la réflexologie peut-elle aider mes clients ?",
+                "hours": "",
+                "modalities": "",
+                "content": [
+                  "La réflexologie aide à soulager le stress et l'anxiété, améliore la circulation sanguine, favorise l'équilibre hormonal, soutient la fonction digestive, et encourage l'auto-guérison du corps. Elle est bénéfique pour une grande variété de conditions et améliore le bien-être général."
+                ]
+              },
+              {
+                "title": "Combien de temps faut-il pour devenir reflexologie certifié ?",
+                "hours": "",
+                "modalities": "",
+                "content": [
+                  "La durée de la formation peut varier en fonction de l'institut de formation, mais la plupart des programmes certifiants en réflexologie durent entre 100 et 300 heures de formation théorique et pratique, réparties sur quelques mois à un an."
+                ]
+              },
+              {
+                "title": "Puis-je pratiquer la réflexologie à domicile ou dois-je travailler dans un établissement ?",
+                "hours": "",
+                "modalities": "",
+                "content": [
+                  "La réflexologie peut être pratiquée à domicile, en cabinet privé, ou dans des établissements comme des spas, des centres de bien-être, et des cliniques médicales. Le choix dépend de vos préférences personnelles, de votre clientèle cible, et des réglementations locales."
+                ]
+              }
+            ]
+          },
+        "articleTitle": "reflexologie",
+
+        "plannings": {
+            "dateFirst": "08 avril. 2024 au 19 mai 2025",
+            "dateSecond": "À venir",
+            "list1": [
+                {
+                    "name": "Oudon",
+                    "pdfLink": "/oudonavril.pdf"
+                },
+                {
+                    "name": "Saintes",
+                    "pdfLink": "/saintesavril.pdf"
+                },
+                {
+                    "name": "Tours",
+                    "pdfLink": "/toursavril.pdf"
+                },
+                {
+                    "name": "Rennes",
+                    "pdfLink": "/rennesavril.pdf"
+                }
+            ],
+            "list2": [
+                {
+                    "name": "Oudon",
+                    "pdfLink": "/oudonsept.pdf"
+                },
+                {
+                    "name": "Saintes",
+                    "pdfLink": "/saintessept.pdf"
+                },
+                {
+                    "name": "Tours",
+                    "pdfLink": "/tourssept.pdf"
+                },
+                {
+                    "name": "Rennes",
+                    "pdfLink": "/rennessept.pdf"
+                }
+            ]
+        },
+        "jobsAfterTraining": {
+            "title": "Métier visés après la formation",
+            "list": [
+                "reflexologie indépendant",
+                "reflexologie en centre pluridisciplinaire"
+            ]
+        },
+        "plateformeDesktop": [
+            "Cours théoriques approfondis : Nos cours théoriques ne se contentent pas de survoler les sujets, mais les explorent en profondeur. Accédez à des ressources pédagogiques complètes qui vous permettent de renforcer votre compréhension des concepts fondamentaux et d'acquérir une expertise solide dans votre domaine.",
+            "Vidéos de démonstration : La théorie prend vie à travers nos vidéos de démonstration. Visualisez des exemples pratiques et concrets qui vous aident à assimiler les concepts clés. Ces vidéos vous offrent une perspective visuelle, facilitant ainsi votre apprentissage et renforçant vos compétences pratiques.",
+            "Exercices interactifs : Chez MDS Formations, nous croyons en l'apprentissage actif. Mettez immédiatement en pratique ce que vous avez appris grâce à nos exercices interactifs stimulants. Ces activités vous permettent de consolider vos connaissances et de développer vos compétences de manière pratique.",
+            "Apprentissage à votre rythme : La flexibilité est au cœur de notre approche pédagogique. Profitez de l'apprentissage à votre rythme en explorant les cours depuis le confort de votre domicile. Cette approche vous donne la liberté d'organiser votre emploi du temps d'apprentissage selon vos préférences, tout en garantissant une compréhension approfondie des sujets abordés."
+        ],
+        "potentialStructures": {
+            "title": "Structures envisageables",
+            "list": [
+                "Salons de massage",
+                "Centres de vacances",
+                "Hôtels",
+                "Bateaux de croisière",
+                "Maisons de retraite",
+                "Réflexologie à domicile"
+            ]
+        },
+        
+        "certification": {
+            "title": "Réaliser des prestations socio-esthétiques",
+            "rncp": "RS 5992",
+            "level": ""
+        },
+        "carouselImages": [
+            {
+              "src": "/modeMassage.webp",
+              "alt": "Image de massage, en formation massage crânien"
+            },
+            {
+              "src": "/distriMassage.webp",
+              "alt": "Image de massage, en formation massage du dos"
+            },
+            {
+                "src":"/modeMassage.webp",
+                "alt":"Image de massage, en formation massage crânien"
+            },
+            {
+                "src":"h/flexMassage.webp",
+                "alt":"Image de massage, en formation massage du ventre"
+            },
+            {
+                "src":"/ecoleMassage.webp",
+                "alt":"Image d'une plage avec le logo du centre de formation MDS"
+            }
+          ]
+    }
+    
+    
+    
+        
+
+]

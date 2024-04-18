@@ -1,0 +1,170 @@
+@import '../../../../style/settings.scss';
+
+
+.formation_container { 
+    padding-bottom: 50px;
+
+.slider-inscription {
+    position: relative;
+    width: 100%;
+    height: 340px !important;
+    cursor: grab;
+    margin-top: 25px;
+    overflow-y: hidden; /* Désactive le défilement vertical */
+
+    .slider-inscription-outer { 
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow-y: hidden; /* Désactive le défilement vertical */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+
+        .slider-inscription-inne {
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            width: auto;
+            height: 100%;
+            margin-left: 10px;
+            padding-top: 20px;
+            overflow-y: hidden; /* Désactive le défilement vertical */
+            
+            .items {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+                width: 159px;
+                height: 247px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 21px;
+                margin: 5px;
+                padding: 5px 15px 5px 15px;
+                box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                background-position: center left 40%;
+                background-size: cover;
+                object-fit: cover;
+                transition: .2s ease-in-out;
+                box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.22);
+                &:hover{
+                  
+                    transform: scale(1.1);
+                    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19), 0 2px 1px rgba(0, 0, 0, 0.23);
+                }
+
+                .topContainer{ 
+                    width: 100%;
+                    
+                    height: 50%;
+
+                    .icon{
+                        .h2{
+                            color: $color-text;
+                            font-size: 17px;
+                            font-weight: 600;
+                            margin-top: -10px;
+                            line-height: 26px;
+                            overflow: hidden;
+                            display: block;
+
+                        }
+
+                        .date{
+                            font-size: 13px;
+                            font-weight: 400;
+                            margin-top: 10px;
+                            color: $color-text;
+                            font-family: 'poppins2';
+                            overflow: hidden;
+                        }
+                    }
+            } 
+
+           
+
+            .bottomContainer{ 
+
+                .buttons {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+
+                    button{
+                        display: inline-flex;
+                        padding: 4px 16px 4px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                        transition: .2s ease-in-out;
+                        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.22);
+                        &:hover{
+                          
+                            transform: scale(.92);
+                            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19), 0 1px 1px rgba(0, 0, 0, 0.23);
+                        }
+                    }
+                }
+            }
+         }
+        }
+    }
+
+    .progress-bar-inscription-outer {
+        position: absolute;
+        top: 282px;
+        left: 10px;
+        width: 90%;
+        height: 15px; // Ajustez la hauteur comme vous le souhaitez
+        border-radius: 10px;
+        background: #ffffff;
+    
+    
+    .prog-bar-inscription-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%; // la largeur sera mise à jour dynamiquement
+        height: 100%;
+        border-radius: 100px;
+       
+    }
+    
+    }
+}
+}
+@media screen and (min-width: 1024px) {
+ .formation_container{
+    padding-bottom: 10px;
+    .slider-inscription{
+
+        .slider-inscription-outer{
+            .slider-inscription-inne{
+                width:100%;
+            }
+        }
+
+        .progress-bar-inscription-outer{
+            display: none;
+
+
+        }
+    }
+ }
+}
+

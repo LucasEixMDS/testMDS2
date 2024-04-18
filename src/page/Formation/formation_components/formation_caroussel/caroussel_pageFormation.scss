@@ -1,0 +1,243 @@
+@import '../../../../style/settings.scss';
+
+.pageFormation {
+background: white;
+padding: 20px 20px 20px 20px ;
+
+h4{
+    color: #4f4f4f;
+    font-size: 20px;
+    
+}
+
+.home{
+   
+    h3{
+        padding-top: 45px;
+        color: var(--Gris-fonc, #333);
+        font-size: 20px;
+        font-weight: 400;
+        width: 90%;
+        margin-bottom: 20px;
+
+        span{
+            color: $color-1;
+            font-family: "poppins-semiBold";
+        }
+    }
+
+    button{
+        border: none;
+        border-radius: 100px;
+        background: $color-principale;
+        color: white;
+        margin-top: 40px;
+        display: inline-flex;
+        padding: 4px 16px 4px 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button_webinaire{
+        border: none;
+        border-radius: 100px;
+        background: $color-principale;
+        color: white;
+        margin-top: 40px;
+        display: inline-flex;
+        padding: 4px 16px 4px 16px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slider-formation {
+        position: relative;
+        width: 100%;
+        height: 287px;
+        cursor: grab;
+        margin-top: 25px;
+        overflow-x: scroll;
+    
+        .slider-formation-outer { 
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            overflow: scroll;
+    
+            &::-webkit-scrollbar {
+                display: none;
+            }
+            
+            -ms-overflow-style: none; /* IE and Edge */
+            scrollbar-width: none; /* Firefox */
+    
+            .slider-formation-inner {
+                position: absolute;
+                display: flex;
+                justify-content: space-around;
+                width: auto;
+                height: 100%;
+                
+                .items {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    width: 159px;
+                    height: 247px;
+                    background-color: rgb(0, 0, 0);
+                    border-radius: 21px;
+                    margin: 5px;
+                    padding: 5px;
+                    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                    background-position: center left 40%;
+                    background-size: cover;
+                    object-fit: cover;
+    
+                    .topContainer{ 
+                        width: 100%;
+                        padding-left: 10px;
+                        height: 20%;
+    
+                    .icon{
+                        width: 29%;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: white;
+                        box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                        border-radius: 10px;
+    
+                        p{
+                            font-size: 35px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+    
+                            img{
+                                width: 35px;
+                            }
+                        }
+    
+                    }
+                } 
+    
+                .midContainer{ 
+                    height: 50%;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    margin-top: -10px;
+                    margin-left: -10px;
+    
+                    h2{
+                        color: var(--Gris, #ffffff);
+                        font-weight: 600;
+                        margin-left: 8px;
+                        width: 85%;
+                        font-size: 20px;
+                    }
+                }
+    
+                .bottomContainer{ 
+    
+                    .buttons {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        justify-content: center;
+    
+                        button{
+                            display: inline-flex;
+                            padding: 4px 16px 4px 16px;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            border-radius: 100px;
+                            background: rgb(255, 255, 255);
+                            border: none;
+                            color: white;
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+             }
+            }
+        }
+    
+        .progress-bar-formation-outer {
+            position: absolute;
+            top: 265px;
+            width: 100%;
+            height: 10px; // Ajustez la hauteur comme vous le souhaitez
+            border-radius: 10px;
+            background: white;
+        
+        
+        .prog-bar-formation-inner {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%; // la largeur sera mise à jour dynamiquement
+            height: 100%;
+            border-radius: 100px;
+            background-color: var(--Violet, #7874C7);
+        }
+        
+        }
+    }
+}
+}
+    
+@media screen and (min-width: 1024px) {
+    .pageFormation{
+        background: #f4f4f4;
+        padding:45px 10% 45px 10%;
+
+        .h4{display:block;
+            padding: 0 0 15px 0;
+        }
+
+        .prog-bar-formation-inner {
+            display: none; /* Cache la barre mobile sur les écrans larges */
+        }
+        .prog-bar-formation-inner-desktop {
+            display: block; /* Affiche la barre desktop sur les écrans larges */
+            width: 10%; /* ou votre style pour desktop */
+            background-color: var(--Violet, #7874C7);
+            height: 100%;
+            border-radius: 100px;
+        }
+        
+        .home{ 
+         
+
+    
+            .h3{display:block;
+                width: 65%;
+                font-size: 25px;
+            }
+
+            .slider-formation{
+                overflow-x: hidden;
+               
+                .progress-bar-formation-outer{
+                   display: none;
+                }
+
+                .slider-formation-outer{
+                    .slider-formation-inner{
+                        width: 100%;
+                    }
+                }
+
+                
+            }
+        }
+    }
+    }

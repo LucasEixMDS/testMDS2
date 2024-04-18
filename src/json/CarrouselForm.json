@@ -1,0 +1,72 @@
+[
+    {
+        "id" : "004",
+        "idElement" : ["certification", "formation", "longue"],
+        "formationLink" : "reflexologue",
+        "formationURL": "/reflexologue",
+        "name" : "Réflexologie",
+        "icon" : "/pied.svg",
+        "photo" : "/reflexologue.webp",
+        "text" : "Cursus reflexologie",
+        "buttonColor" : "#64B768"
+        
+    },
+    {
+        "id" : "008",
+        "idElement" : [ "formation", "distanciel", "longue"],
+        "formationLink" : "reflexologue-a-distance",
+        "formationURL": "/reflexologue-a-distance",
+        "name" : "Réflexologie à distance",
+        "icon" : "/pied.svg",
+        "photo" : "/reflexologue.webp",
+        "text" : "Cursus reflexologie à distance",
+        "buttonColor" : "#64B768"
+        
+    },
+    {
+        "id" : "003",
+        "idElement" :  ["certification", "formation", "vae", "courte"],
+        "formationLink" : "masseur-professionnel",
+        "formationURL": "/masseur-professionnel",
+        "name" : "Masseur professionnel",
+        "icon" : "/massage.svg",
+        "photo" : "/massage.webp",
+        "text" : "Praticien(ne) en massage",
+        "buttonColor" : "#CF836C"
+    },
+    {
+        "id" : "002",
+        "idElement" :["formation", "courte", "distanciel", "certification"],
+        "formationLink" : "prothesie-ongulaire-en-ligne",
+        "formationURL": "/prothesie-ongulaire-en-ligne",
+        "name" : "Prothésie ongulaire à distance",
+        "icon" : "/ongle.svg",
+        "photo" : "/prothesie.webp",
+        "text" : "Prothesiste ongulaire 100% en ligne",
+        "buttonColor" : "#8A88C1"
+    },
+    {
+        "id" : "006",
+        "idElement" : ["certification", "formation", "certification", "courte"],
+        "formationLink" : "prothesie-ongulaire-en-centre",
+        "formationURL": "/prothesie-ongulaire-en-centre",
+        "name" : "Prothésie ongulaire",
+        "icon" : "/ongle.svg",
+        "photo" : "/femmeviolet.webp",
+        "text" : "Prothesiste ongulaire",
+        "buttonColor" : "#8A88C1"
+    },
+   
+    {
+        "id" : "007",
+        "idElement" :   ["certification", "formation", "courte"],
+        "formationLink" : "massage-du-monde",
+        "formationURL": "/massage-du-monde",
+        "name" : "Massage du monde",
+        "icon" : "/massage.svg",
+        "photo" : "/massagemonde.webp",
+        "text" : "Massage du monde",
+        "buttonColor" : "#D7724F"
+    }
+    
+]

@@ -1,0 +1,87 @@
+.formation_container1{
+    padding: 50px 5% 20px 5%;
+    
+    p{
+        
+        font-size: 15px;
+        font-family: 'poppins2';
+        color: #4f4f4f;
+    }
+
+    .descriptionContainer{
+        button{
+            border: none;
+            border-radius: 100px;
+            background: var(--Blanc-1, #F2F2F2);
+            display: inline-flex;
+            padding: 4px 16px 4px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: var(--Gris, #ffffff);
+            width: 320px;
+            margin: 10px 0 10px 0;
+            border: 1px solid transparent;
+            transition: .2s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 3px 2px rgba(0, 0, 0, 0.22);
+            &:hover{
+              
+                transform: scale(.92);
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19), 0 2px 1px rgba(0, 0, 0, 0.23);
+            }
+        }
+        .h2{
+            font-size: 20px;
+            font-family: "poppins2";
+            color: #4f4f4f;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+.page_formation{ 
+
+
+    .formation_container1{
+        padding: 0px 10% 00px 10%;
+        height: 600px;
+        display: flex;
+        align-items: end;
+        justify-content: end;
+
+        p{
+            margin: 15px 0 15px 0 ;
+        }
+        .descriptionContainer{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding-bottom: 15px;
+
+             button{
+                margin-left: 25px !important;
+            border: none;
+            border-radius: 100px;
+            background: var(--Blanc-1, #F2F2F2);
+            display: inline-flex;
+            padding: 4px 16px 4px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            color: var(--Gris, #ffffff);
+            width: 320px;
+            margin: 10px 0 10px 0;
+            border: 1px solid transparent;
+            transition: .2s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 3px 2px rgba(0, 0, 0, 0.22);
+            &:hover{
+              
+                transform: scale(.92);
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19), 0 2px 1px rgba(0, 0, 0, 0.23);
+            }
+        }
+        }
+    }
+}
+}

@@ -1,0 +1,157 @@
+@import "../../../../style/settings.scss";
+
+.modalFichette{
+    
+    display: none;
+    
+
+
+    .fichetteContainer{ 
+        background: #fff6e891;
+        border-radius: 20px;
+        width: 70%;
+        padding: 10px 10px 10px 10px;
+        position: absolute;
+        top: 559px;
+        left: 10%;
+        box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.22);
+        display: flex;
+        flex-wrap: wrap;
+
+        .containFichette{
+        display: flex;
+
+        .fichetteContainerLeft{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .fichetteContainerRight{
+            width: 50%;
+        }
+        }
+
+    
+       
+    .containTextFichette{
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+     
+
+        p{
+            font-size: 15px;
+            font-family: "poppins-semiBold";
+            
+
+            img{
+                width: 40px;
+                
+            }
+        }
+
+        .textFichette{
+            margin-left: 10px;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            p{
+                font-family: "poppins2";
+                color: var(--Gris, #4F4F4F);
+                font-size: 12px;
+            }
+
+            button{
+                border: none;
+                border-radius: 100px;
+                background: var(--Blanc-1, #F2F2F2);
+                display: inline-flex;
+                padding: 4px 16px 4px 16px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                color: var(--Gris, #4F4F4F);
+                width: 120px;
+                margin: 10px 0 10px 0;
+                border: 1px solid transparent;
+                transition: .2s ease-in-out;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 3px 2px rgba(0, 0, 0, 0.22);
+                &:hover{
+                  
+                    transform: scale(.92);
+                    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19), 0 2px 1px rgba(0, 0, 0, 0.23);
+                }
+            }
+        }
+    }
+
+    .buttonDoc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        button{
+            display: inline-flex;
+            padding: 4px 16px 4px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 100px;
+            border: none;
+            color: white;
+            font-size: 12px;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: .2s ease-in-out;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 3px 2px rgba(0, 0, 0, 0.22);
+            &:hover{
+              
+                transform: scale(.92);
+                box-shadow: 0 2px 3px rgba(0, 0, 0, 0.19), 0 2px 1px rgba(0, 0, 0, 0.23);
+            }
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1024px){
+    .modalFichette{
+        display: block;
+       
+
+        .fichetteContainer{
+
+            p{
+                font-size: 25px;
+                font-family: "poppins2";
+                img{
+                    width: 60px;
+                }
+            }
+            .containTextFichette{
+                
+              .textFichette{
+
+
+
+
+                            .iconCont{
+                                margin-top: 10px;
+                            }
+
+                            p{
+                                font-size: 14px;
+                                font-family: "poppins2";
+                            }
+                        }
+
+                p{
+                    font-size: 25px;
+                    font-family: "poppins2";
+                }
+            }
+        }
+    }
+}

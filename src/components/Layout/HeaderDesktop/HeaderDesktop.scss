@@ -1,0 +1,184 @@
+@import '../../../style/settings.scss';
+
+
+
+@media only screen and (max-width: 1024px) {
+    /* Toujours cacher le menu principal */
+	.HeaderDesktop{
+		display: none;
+	}
+}
+
+.HeaderDesktop{
+  z-index: 9999;
+
+  padding: 0;
+
+
+  .ticker-wrapper {
+		width: 100%; /* Ajustez la largeur selon vos besoins */
+		overflow: hidden; /* Cache les parties du texte qui dépassent */
+		background: $color-1;/* Couleur de fond du bandeau */
+		box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+		position: fixed;
+		top: 80px;
+		width: 100%;
+		height: 55px;
+		z-index: 990;
+		opacity: 0.7;
+		align-items: center;
+		justify-content: center;
+
+    .clique{
+      display: flex;
+      justify-content: center;
+      color: black;
+      font-size: 12px;
+      opacity: 0.5;
+    }
+	
+
+    .containTicker{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      .ticker {
+        display: flex;
+        white-space: nowrap; /* Garantit que le texte reste sur une seule ligne */
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-right: 10px;
+      
+        p{
+          font-family: "poppins-bold";
+          color: #000000e4;
+          font-size: 20px;
+          text-align: right;
+          width: 100%;
+          margin-bottom: -10px;
+      
+        }
+        }
+        .ticker2{
+          display: flex;
+          white-space: nowrap; /* Garantit que le texte reste sur une seule ligne */
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          margin-bottom: -12px;        
+          p{
+            font-family: "poppins2";
+            color: #000000e4;
+            font-size: 12px;
+            text-align: left;
+            width: 100%;
+            margin-bottom: 0px;
+        
+          }
+          .adresse{
+            margin-bottom: 0;
+          }
+        }
+    }
+		
+	  }
+
+  a{
+    z-index: 999;
+    cursor: pointer;
+    display: block;
+  }
+
+  .content {
+
+    padding: 0 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    nav{
+
+      display: flex;
+      gap: 50px;
+
+      button{
+        color: initial; /* Couleur initiale */
+       transition: color 0.3s ease;
+      }
+
+      button:hover{
+        
+        color: $color-1;
+        
+      }
+      
+      .menu-item{
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 24px;
+        border: none;
+        border-radius: 5px;
+        padding: 20px;
+        background: none;
+        text-rendering:optimizeLegibility;
+        color: #4f4f4f;
+
+        
+
+        
+      }
+      .contact{  
+
+
+        animation-name: shakeX ;
+        animation-duration: 4s;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+
+        .phone {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          cursor: pointer;
+          border-radius: 40%;
+          background-color: #ffffff;
+          padding: 5px;
+          margin-right: -5px;
+          width: 50px;
+  
+  
+          img{
+            width: 25px;
+            margin-right: 0px;
+            margin-top: 5px;
+          }
+          
+        }
+        .mail{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          cursor: pointer;
+          border-radius: 40%;
+          background-color: #ffffff;
+          padding: 5px;
+          margin-right: -5px;
+          width: 50px;
+  
+  
+          img{
+            width: 30px;
+            margin-right: 0px;
+          }
+        }
+      }
+     
+    }
+  }
+}

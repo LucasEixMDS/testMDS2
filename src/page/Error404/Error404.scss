@@ -1,0 +1,56 @@
+@import '../../style/settings.scss';
+
+.ERROR{
+    display: flex;
+    padding:50px 20% 20px 20%;
+    height: auto;
+    background-image: url("/1error404.webp");
+    background-size:cover;
+    object-fit: cover;
+    background-position: center;
+
+
+    .errorContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        text-align: center;
+        height: 1500px;
+        color: #ffffff;
+        padding-top: 200px;
+
+        h1{
+            font-size: 70px;
+        }
+        h2{
+            font-size: 120px;
+            margin-bottom: -30px;
+        }
+        p{
+            font-size: 20px;
+        }
+
+        button{
+            border: none;
+            border-radius: 100px;
+            background: white ;
+            color: rgb(0, 0, 0) ;
+            border: 1px solid black ;
+            display: inline-flex;
+            padding: 4px 16px 4px 16px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            font-family: "poppins-bold";
+            margin-top: 20px;
+            transition: transform 0.2s ease-in-out;
+
+            &:hover{
+                color: white;
+                background: black;
+                border: 1px solid white;
+            }
+        }
+    }
+}

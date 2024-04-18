@@ -1,0 +1,76 @@
+.financement{
+    background: white;
+    padding: 20px;
+    padding-right: 0;
+
+    p{
+        color: #4f4f4f;
+        font-size: 15px;
+    font-family: "poppins-regular";  
+    
+       
+    
+ }
+
+    .text-color {
+        font-size: 20px;
+        font-family: 'poppins-bold';
+    }
+ 
+     .financement_tarifs{
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         justify-content: space-between;
+
+    
+
+         .financement_complet{
+            margin-left: 50px;
+         }
+
+     }
+
+     .financement_prix_top{
+        display: flex;
+        padding-top: 15px ;
+        
+        .financement_dossier{
+            margin-right: 100px;
+        }
+     }
+
+
+     .financement_prix_mid{
+        display: flex;
+         flex-direction: column;
+         padding-top: 15px;
+     }
+
+     .financement_prix_bottom{
+        display: flex;
+        flex-direction: column;
+
+        .financement_bloc{
+            display: flex;
+            flex-direction: row;
+            padding-top: 15px;
+
+            .financement_cpf{
+                margin-right: 20px;
+
+                p{
+                    white-space: nowrap;
+                }
+            }
+        }
+     }
+}
+
+@media screen and (min-width: 1024px){
+
+    .financement{ 
+        display: none;
+        
+    }
+}

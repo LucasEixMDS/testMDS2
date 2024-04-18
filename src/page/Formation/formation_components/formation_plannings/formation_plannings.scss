@@ -1,0 +1,70 @@
+
+.plannings-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #f2f2f2;
+    padding: 20px;
+    
+
+    .h2{
+        span{
+            color: grey !important;
+            font-size: 10px;
+            font-family: "poppins2" !important;
+            padding-left: 10px;
+        }
+    }
+
+    p{
+        font-family: "poppins2";
+        color: #686666;
+        margin-top: 10px;
+    }
+
+    .plannings-list{
+        margin-top: 10px;
+        
+    
+    button{
+        border: none;
+        border-radius: 100px;
+        color:white;
+        display: inline-flex;
+        padding: 4px 16px 4px 16px;
+        margin: 5px;
+        justify-content: center;
+        align-items: center;
+        cursor:grab;
+        transition: .2s ease-in-out;
+                        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.22);
+                        &:hover{
+                          
+                            transform: scale(.92);
+                            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19), 0 1px 1px rgba(0, 0, 0, 0.23);
+                        }
+    }
+}
+}
+
+@media screen and (min-width: 1024px) {
+    .plannings-container{
+        
+        padding: 30px 10% 40px 10%;
+
+        .planningsContainer{ 
+        .planningContainerDesktopContainer{ 
+            display: flex;
+        .planningContainerDesktop{
+            display: flex;
+            flex-direction: column;
+            background: white;
+            border-radius: 20px;
+            margin-right: 20px;
+            padding: 10px;
+            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+    }
+    }
+    }
+}

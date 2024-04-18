@@ -1,0 +1,254 @@
+.financementDesktop{
+    display: none;
+    padding: 40px 0 40px 0;
+    width: 100%;
+    background-color: white;
+
+    .financementDesktopLeft{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        padding: 0 0 0 10%;
+
+        .financementTitleDesktop{
+
+            .h2{
+                font-family: "poppins-bold";
+                color: #4F4F4F;
+
+                span{
+                    font-family: "poppins-bold";
+                }
+            }
+        }
+
+            .financementTarifsDesktop{
+                display: flex;
+                padding: 20px 0 0 0;
+                align-items: center;
+
+                .financementItems{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    width: 159px;
+                    height: 159px;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 21px;
+                    margin: 5px;
+                    padding: 5px 15px 5px 15px;
+                    box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                    background-position: center left 40%;
+                    background-size: cover;
+                    object-fit: cover;
+                    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.19), 0 5px 3px rgba(0, 0, 0, 0.23);
+
+                    .financementTopContainer{
+                        .financementIcon{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            height: 120px;
+                            .h2{
+                                font-size: 17px;
+                                font-family: "poppins-semiBold";
+                                color: var(--Gris, #4F4F4F);
+                            }
+
+                            .date{
+                                font-size: 30px;
+                                text-align: center;
+                                font-family: "poppins-semiBold";
+                                color: var(--Gris, #4F4F4F);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .financementTarifsDesktop2{
+                margin-left: 50px;
+
+                span{
+                    font-size: 30px;
+                    color: var(--Gris, #4F4F4F);
+                    font-family: "poppins-semiBold";
+                    
+                 
+                }
+                p{
+                    font-size: 17px;
+                    font-family: "poppins-bold";
+                    color: var(--Gris, #4F4F4F);
+                }
+            }
+
+            .financementModalBottom{
+                display: flex;
+                padding-top: 30px;
+                
+                a{ 
+                    margin: 5px 3% 5px 0 ;
+                .financementItems{
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    width: 159px;
+                    height: 199px;
+                    background-color: rgb(255, 255, 255);
+                    border-radius: 21px;
+                    margin: 5px 10% 5px 5px ;
+                    padding: 5px 15px 5px 15px;
+                   
+                    background-position: center left 40%;
+                    background-size: cover;
+                    object-fit: cover;
+                    transition: .2s ease-in-out;
+                    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.19), 0 5px 3px rgba(0, 0, 0, 0.23);
+                    &:hover{
+                      
+                        transform: scale(1.1);
+                        
+                        box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.22);
+                    }
+
+                    .financementTopContainer{
+                        .financementIcon{
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: space-between;
+                            height: 120px;
+                            .h2{
+                                font-size: 16px;
+                                font-family: "poppins-semiBold";
+                                color: var(--Gris, #4F4F4F);
+
+                                span{
+                                    font-size: 25px;
+                                    color: var(--Gris, #4F4F4F);
+                                }
+                            }
+
+                           
+                        }
+                    }
+
+                    button{
+                        display: inline-flex;
+                        padding: 4px 16px 4px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        background: rgb(255, 255, 255);
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                        transition: .2s ease-in-out;
+                        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.22);
+                        &:hover{
+                          
+                            transform: scale(.92);
+                            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.19), 0 1px 1px rgba(0, 0, 0, 0.23);
+                        }
+                    }
+                }
+            }
+                        }
+
+            }
+    
+
+
+    .financementDesktopRight{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        
+        .fichetteTarifs{
+            background: #f2f2f2;
+            border-radius: 20px 0 0 20px;
+            padding: 20px 10px 20px 5%;
+            height: 460px;
+      
+            box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.22);
+         
+
+            .financeItem{
+                display: flex;
+                justify-content: space-around;
+                text-align: right;
+                margin: 20px 0 10px 0;
+                align-items: center;
+
+                p{
+                    color: #4F4F4F;
+                }
+
+                .prix{
+                    font-family: "poppins-semiBold";
+                }
+                
+            }
+
+            .financeItem2{
+                display: flex;
+                flex-direction: column;
+                margin: 20px 0 10px 0;
+                align-items: right;
+                
+                .prix{
+                    font-family: "poppins-semiBold";
+                }
+            }
+
+            .financeItem3{
+               display: flex;
+                text-align: right;
+                flex-direction: column;
+                align-items: end;
+                margin: 20px 12% 10px 0;
+
+                p{
+                    color: #4F4F4F;
+                }
+
+                .prix{
+                    font-family: "poppins-semiBold";
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+    .financementDesktop{
+        display: flex;
+    }
+
+    .financementDesktop .financementDesktopLeft .financementModalBottom .financementItems {
+                margin: 5px 2% 5px 5px;
+            }
+        }
+
+@media screen and (min-width: 1170px){
+
+    .financementDesktop .financementDesktopLeft .financementModalBottom .financementItems {
+                margin: 5px 5% 5px 5px;
+            }
+        }
+
+@media screen and (min-width: 1330px){
+
+    .financementDesktop .financementDesktopLeft .financementModalBottom .financementItems {
+                margin: 5px 10% 5px 5px;
+            }
+        }
+    
+

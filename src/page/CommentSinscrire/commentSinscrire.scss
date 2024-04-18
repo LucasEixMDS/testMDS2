@@ -1,0 +1,238 @@
+
+.comment{
+
+    .headerComment{
+        height:500px;
+    width: 100%;
+    background-image: url("/formateur.webp");
+    background-size:cover;
+    object-fit: cover;
+    background-position: 50% 60%;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 0 10% 60px 10%;
+    color: white;
+
+    h1{
+        font-size: 36px;
+        font-family: "poppins-semiBold";
+        color: #ffffff;
+        margin-bottom: 5px;
+    }
+    h2{
+        font-size: 24px;
+        font-family: "poppins2";
+        color: #ffffff;
+    }
+    }
+
+    .commentFinish{
+        margin-top: 40px;
+    }
+
+    .commentContainer, .commentContainerGrey{
+        padding: 10px 10% 20px 10%;
+
+        .commentFirstText{
+            margin-top: 20px;
+        }
+
+        p{
+            padding-bottom: 15px;
+            font-family: "poppins2";
+            font-size: 14px;
+        }
+
+        h2{
+            font-family: "poppins-semiBold";
+            margin: -3px 0 0px 0;
+            color: var(--Gris, #4F4F4F);
+            font-size: 16px;
+
+            span{
+                color: #4f4f4f;
+            }
+        }
+
+        button{
+            border: none;
+            border-radius: 100px;
+            background: #4f4f4f;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: inline-flex;
+            padding: 4px 16px 4px 16px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            justify-content: space-around;
+            align-items: center;
+            width: auto;
+            transition: transform 0.2s ease-in-out;
+            border: 1px solid transparent;
+            &:hover{
+                background: #ffffff;
+                color: #4f4f4f;
+                border: 1px solid #4f4f4f;
+            }
+        }
+    }
+
+    .commentContain{
+        padding: 40px 10% 30px 10%;
+        background: #f2f2f2;
+
+        .commentTextContact{
+            margin-top: 40px;
+            margin-bottom: -20px;
+        }
+
+        .commentButtonContact{
+            border: none;
+            border-radius: 100px;
+            background: #4f4f4f;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: inline-flex;
+            padding: 2px 16px 2px 16px;
+            margin-bottom: 40px;
+            margin-top: 20px;
+            justify-content: space-around;
+            align-items: center;
+            width: auto;
+            transition: transform 0.2s ease-in-out;
+            border: 1px solid transparent;
+            &:hover{
+                background: #ffffff;
+                color: #4f4f4f;
+                border: 1px solid #4f4f4f;
+            }
+        }
+
+        p{
+            padding-bottom: 15px;
+            font-family: "poppins2";
+            font-size: 14px;
+            color: var(--Gris, #4F4F4F);
+        }
+
+        h2{
+            font-family: "poppins-semiBold";
+            margin: -3px 0 20px 0;
+            color: var(--Gris, #4F4F4F);
+            font-size: 16px;
+
+            span{
+                color: #4f4f4f;
+            }
+        }
+
+
+        .commentExplain { 
+            display: flex;
+            flex-wrap: wrap;
+
+
+        .commentDiv{ 
+            display: flex;
+            align-items: center;
+            width: 400px;
+            margin-top: 20px;
+            margin-right: 20px;
+
+            p{
+                font-family: "poppins2";
+                font-size: 14px;
+                width: 230px;
+                color: var(--Gris, #4F4F4F);
+                
+            }
+
+
+        .itemsComment {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            width: 159px;
+            height: 250px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 21px;
+            margin: 5px;
+            padding: 5px 15px 5px 15px;
+            box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+            background-position: center left 40%;
+            background-size: cover;
+            object-fit: cover;
+            margin-right: 10px;
+            transition: transform 0.2s ease-in-out;
+          
+            &:hover{
+                transform: scale(1.05);
+            }
+
+            .topContainer{ 
+                width: 100%;
+                
+                height: 50%;
+
+                .icon{
+                    .h2{
+                        color: #4F4F4F;
+                        font-size: 16px;
+                        font-weight: 600;
+                        margin-top: -10px;
+                        font-family: "poppins-bold";
+
+                    }
+
+                    .date{
+                        font-size: 12px;
+                        font-weight: 400;
+                        color: #4F4F4F;
+                        font-family: 'poppins';
+                        padding-top: 20px;
+                    }
+                }
+        }
+        
+        .bottomContainer{ 
+
+            .buttons {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                justify-content: center;
+
+                button{
+                    display: inline-flex;
+                    padding: 4px 16px 4px 16px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 10px;
+                    border-radius: 100px;
+                    background: rgb(255, 255, 255);
+                    border: none;
+                    color: white;
+                    font-size: 15px;
+                    font-weight: 600;
+                    background: #4f4f4f;
+                    transition: transform 0.2s ease-in-out;
+                    border: 1px solid transparent;
+                    &:hover{
+                        background: #ffffff;
+                        color: #4f4f4f;
+                        border: 1px solid #4f4f4f;
+                    }
+                }
+            }
+        }
+     
+    }
+}
+        }
+    }
+}

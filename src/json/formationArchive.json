@@ -1,0 +1,687 @@
+[ {
+    "id": "0006",
+    "formationLink": "maquillage-permanent",
+    "colorFormation" : "#E9464F",
+    "emoji" : "/bouche.svg",
+    "hasPlannings": false,
+    "fichette":{
+        "time1": "355 heures 30 jour de distanciel",
+        "time2": "12 mois 55 jour de présenciel",
+        "lieu": "33 Blanche Lande 44521 Oudon",
+        "tarifs": "à partir de 3100 €",
+        "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+        "titreVae": "VAE",
+        "vae": "Formation éligible à la validation des acquis de l'expérience"
+    },
+    "header": {
+        "title": "Maquillage Permanent",
+        "subtitle": "Entrez dans l'art du tatouage cosmétique et révolutionnez votre carrière",
+        "imagePath": "/maquillage.webp",
+        "imageAltText": "Artiste en maquillage permanent",
+        "description": "Le maquillage permanent transforme les visages et les vies !",
+        "descirption2": "Cette formation complète vous prépare à devenir un expert en tatouage cosmétique, capable de réaliser des sourcils, des eye-liners, et des lèvres parfaitement dessinés.",
+        "description3": "Découvrez les techniques, les outils et les concepts de sécurité indispensables pour exceller dans ce domaine en pleine croissance."
+    },
+    "objectives": {
+        "title": "À la fin de notre ::color:: formation en maquillage permanent, ::color:: vous serez capable de :",
+        "list": [
+            {
+                "main": "Concevoir et appliquer des maquillages permanents",
+                "subList": [
+                    "Apprendre les techniques de tatouage cosmétique pour les sourcils, les lèvres et les yeux",
+                    "Pratiquer le dessin et le remplissage pour un rendu naturel et harmonieux"
+                ]
+            },
+            {
+                "main": "Choisir les pigments et les techniques appropriés pour chaque client",
+                "subList": [
+                    "Comprendre la colorimétrie et le choix des pigments en fonction du type de peau",
+                    "Savoir adapter les techniques selon la morphologie et les attentes du client"
+                ]
+            },
+            {
+                "main": "Respecter les normes d'hygiène et de sécurité",
+                "subList": [
+                    "Connaître les protocoles d'hygiène pour la prévention des infections",
+                    "Maîtriser la stérilisation et l'entretien des équipements",
+                    "Comprendre les réglementations en vigueur dans le domaine du maquillage permanent"
+                ]
+            },
+            {
+                "main": "Corriger et retirer le maquillage permanent",
+                "subList": [
+                    "Techniques de correction des imperfections et des erreurs de maquillage permanent",
+                    "Méthodes de détatouage et de retrait du pigment"
+                ]
+            },
+            {
+                "main": "Conseiller les clients sur les soins post-procédure",
+                "subList": [
+                    "Fournir des recommandations pour la guérison et l'entretien après la procédure",
+                    "Savoir communiquer sur les soins à domicile pour préserver la qualité du maquillage permanent"
+                ]
+            }
+        ]
+    },
+    "pricing": {
+        "completForm" : "7 000 €",
+        "registrationFee": "150 €",
+        "examFee": "200 €",
+        "paymentOption": "possibilité de paiement échelonné",
+        "financementPerso" : "5 400 €",
+        "block1": "4 500 €",
+        "block2": "4 000 € avec matériel professionnel inclus",
+        "block3": "2 500 € pour formation continue",
+        "personalBlock1": "3 800 €",
+        "personalBlock2": "4 200 €",
+        "personalBlock3": "2 000 €"
+    },
+    "program": {
+        "title": "Contenu de la formation",
+        "blocks": [
+            {
+                "title": "Théorique (Bloc 1) à distance : Fondamentaux du maquillage permanent",
+                "hours": "120 heures",
+                "modalities": "100 h autonomie et 20 h de visio",
+                "content": [
+                    "Étudier l'anatomie de la peau...",
+                    "Comprendre la colorimétrie...",
+                    "Apprendre les normes d'hygiène et de sécurité...",
+                    "Identifier les différentes techniques de maquillage permanent..."
+                ]
+            },
+            {
+                "title": "Pratique (Bloc 2) en présentiel : Techniques et applications réelles",
+                "hours": "180 heures",
+                "modalities": "pratiques sur modèles",
+                "content": [
+                    "Manier différents types d'appareils et d'aiguilles...",
+                    "Réaliser des procédures complètes...",
+                    "Gérer les retouches et les corrections...",
+                    "Assurer le suivi client..."
+                ]
+            },
+            {
+                "title": "Théorique (Bloc 3) à distance : Gestion d’entreprise et aspects juridiques",
+                "hours": "40 heures",
+                "modalities": "30 h autonomie et 10 h de visio",
+                "content": [
+                    "Naviguer dans les aspects juridiques...",
+                    "Gérer une entreprise de beauté...",
+                    "Développer une présence marketing..."
+                ]
+            }
+        ]
+    },
+    "articleTitle": "esthéticienne",
+
+    "jobsAfterTraining": {
+        "title": "Carrières après la formation",
+        "list": [
+            "Spécialiste en maquillage permanent",
+            "Artiste en tatouage cosmétique",
+            "Consultant en correction du maquillage permanent"
+        ]
+    },
+    "plateformeDesktop": [
+        "Cours théoriques approfondis : Nos cours théoriques ne se contentent pas de survoler les sujets, mais les explorent en profondeur. Accédez à des ressources pédagogiques complètes qui vous permettent de renforcer votre compréhension des concepts fondamentaux et d'acquérir une expertise solide dans votre domaine.",
+        "Vidéos de démonstration : La théorie prend vie à travers nos vidéos de démonstration. Visualisez des exemples pratiques et concrets qui vous aident à assimiler les concepts clés. Ces vidéos vous offrent une perspective visuelle, facilitant ainsi votre apprentissage et renforçant vos compétences pratiques.",
+        "Exercices interactifs : Chez MDS Formations, nous croyons en l'apprentissage actif. Mettez immédiatement en pratique ce que vous avez appris grâce à nos exercices interactifs stimulants. Ces activités vous permettent de consolider vos connaissances et de développer vos compétences de manière pratique.",
+        "Apprentissage à votre rythme : La flexibilité est au cœur de notre approche pédagogique. Profitez de l'apprentissage à votre rythme en explorant les cours depuis le confort de votre domicile. Cette approche vous donne la liberté d'organiser votre emploi du temps d'apprentissage selon vos préférences, tout en garantissant une compréhension approfondie des sujets abordés."
+    ],
+    "potentialStructures": {
+        "title": "Lieux potentiels de pratique",
+        "list": [
+            "Studios de maquillage permanent",
+            "Salons de beauté",
+            "Cliniques esthétiques",
+            "Travailleur autonome à domicile"
+        ]
+    },
+
+    "certification": {
+        "title": "Maquillage permanent",
+        "rncp": "RNCP 35277",
+        "level": "Niveau 5"
+    }
+},
+{
+    "id": "0007",
+    "formationLink": "extension-de-cils",
+    "colorFormation" : "#F195A8",
+    "emoji" : "/eyes.svg",
+    "hasPlannings": false,
+    "fichette":{
+        "time1": "355 heures 30 jour de distanciel",
+        "time2": "12 mois 55 jour de présenciel",
+        "lieu": "33 Blanche Lande 44521 Oudon",
+        "tarifs": "à partir de 3100 €",
+        "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+        "titreVae": "VAE",
+        "vae": "Formation éligible à la validation des acquis de l'expérience"
+    },
+    "header": {
+        "title": "Extension de Cils",
+        "subtitle": "Maîtrisez l'art des cils sublimés et propulsez votre carrière dans l'esthétique",
+        "imagePath": "/extension.webp",
+        "imageAltText": "Expert en extension de cils",
+        "description": "Notre formation en extension de cils est conçue pour vous transformer en spécialiste des techniques les plus recherchées dans l'industrie de la beauté.", 
+        "descirption2": "Découvrez comment créer un regard captivant avec des extensions de cils à cils, le volume russe, le réhaussement, et la teinture. De la théorie à la pratique,", 
+        "description3": "Devenez l'expert vers qui tous se tournent."
+    },
+    "objectives": {
+        "title": "Objectifs de la ::color:: formation en extension de cils ::color::",
+        "list": [
+            {
+                "main": "Apprendre les différentes techniques d'extension de cils",
+                "subList": [
+                    "Techniques de base pour l'application d'extensions de cils classiques",
+                    "Introduction aux extensions de volume et techniques de cils à cils"
+                ]
+            },
+            {
+                "main": "Savoir réaliser une pose complète de cils à cils et de volume russe",
+                "subList": [
+                    "Maîtriser l'art de la pose cils à cils pour un effet naturel",
+                    "Techniques avancées pour créer du volume russe et des effets dramatiques"
+                ]
+            },
+            {
+                "main": "Maîtriser les méthodes de réhaussement et de teinture de cils",
+                "subList": [
+                    "Apprendre à réaliser un réhaussement de cils pour un regard lifté",
+                    "Savoir utiliser les teintures pour intensifier la couleur et la définition des cils"
+                ]
+            },
+            {
+                "main": "Assurer la maintenance et le remplissage des extensions",
+                "subList": [
+                    "Techniques pour l'entretien régulier et le remplissage des extensions",
+                    "Conseils pour prolonger la durée de vie des extensions de cils"
+                ]
+            },
+            {
+                "main": "Connaître les règles d'hygiène et de sécurité",
+                "subList": [
+                    "Protocoles d'hygiène pour prévenir les infections et garantir la sécurité du client",
+                    "Gestion des réactions allergiques et sensibilités"
+                ]
+            }
+        ]
+    },
+    "pricing": {
+        "completForm" : "7 000 €",
+        "registrationFee": "100 €",
+        "examFee": "150 €",
+        "paymentOption": "paiements échelonnés disponibles",
+        "financementPerso" : "5 400 €",
+        "block1": "3 500 €",
+        "block2": "3 000 € avec kit professionnel inclus",
+        "block3": "1 500 € pour perfectionnement",
+        "personalBlock1": "2 800 €",
+        "personalBlock2": "3 100 €",
+        "personalBlock3": "1 200 €"
+    },
+    "program": {
+        "title": "Contenu de la formation",
+        "blocks": [
+            {
+                "title": "Théorique (Bloc 1) à distance : Fondamentaux de l'extension de cils",
+                "hours": "100 heures",
+                "modalities": "80 h autonomie et 20 h de visio",
+                "content": [
+                    "Anatomie de l'œil et du cil...",
+                    "Produits et matériaux utilisés...",
+                    "Protocoles d'hygiène et de sécurité...",
+                    "Consultation et préparation du client..."
+                ]
+            },
+            {
+                "title": "Pratique (Bloc 2) en présentiel : Techniques d'extension et de perfectionnement",
+                "hours": "140 heures",
+                "modalities": "pratiques sur modèles",
+                "content": [
+                    "Application pratique des cils à cils...",
+                    "Techniques de volume russe...",
+                    "Procédures de réhaussement et de teinture...",
+                    "Gestion des retouches et des réactions allergiques..."
+                ]
+            },
+            {
+                "title": "Théorique (Bloc 3) à distance : Marketing et gestion d'entreprise",
+                "hours": "30 heures",
+                "modalities": "25 h autonomie et 5 h de visio",
+                "content": [
+                    "Stratégies de marketing pour esthéticiens...",
+                    "Création et gestion d'une entreprise de beauté...",
+                    "Service client et gestion des relations..."
+                ]
+            }
+        ]
+    },
+    "articleTitle": "l'extension de cils",
+
+    "jobsAfterTraining": {
+        "title": "Opportunités professionnelles après la formation",
+        "list": [
+            "Spécialiste en extension de cils",
+            "Technicien en cils dans un salon d'esthétique",
+            "Expert en réhaussement et teinture de cils",
+            "Freelance en services de beauté des cils"
+        ]
+    },
+    "plateformeDesktop": [
+        "Cours théoriques approfondis : Nos cours théoriques ne se contentent pas de survoler les sujets, mais les explorent en profondeur. Accédez à des ressources pédagogiques complètes qui vous permettent de renforcer votre compréhension des concepts fondamentaux et d'acquérir une expertise solide dans votre domaine.",
+        "Vidéos de démonstration : La théorie prend vie à travers nos vidéos de démonstration. Visualisez des exemples pratiques et concrets qui vous aident à assimiler les concepts clés. Ces vidéos vous offrent une perspective visuelle, facilitant ainsi votre apprentissage et renforçant vos compétences pratiques.",
+        "Exercices interactifs : Chez MDS Formations, nous croyons en l'apprentissage actif. Mettez immédiatement en pratique ce que vous avez appris grâce à nos exercices interactifs stimulants. Ces activités vous permettent de consolider vos connaissances et de développer vos compétences de manière pratique.",
+        "Apprentissage à votre rythme : La flexibilité est au cœur de notre approche pédagogique. Profitez de l'apprentissage à votre rythme en explorant les cours depuis le confort de votre domicile. Cette approche vous donne la liberté d'organiser votre emploi du temps d'apprentissage selon vos préférences, tout en garantissant une compréhension approfondie des sujets abordés."
+    ],
+    "potentialStructures": {
+        "title": "Potentiel entrepreneurial",
+        "list": [
+            "Salons d'esthétique",
+            "Studios spécialisés en cils",
+            "Spas et hôtels haut de gamme",
+            "Service à domicile"
+        ]
+    },
+
+    "certification": {
+        "title": "Extension de Cils",
+        "rncp": "RNCP 35329",
+        "level": "Niveau 5"
+    }
+},
+{
+    "id": "0008",
+    "formationLink": "fpa",
+    "colorFormation" : "#FECA35",
+    "emoji" : "/professeur.svg",
+    "programme" : "/programmeFPA.pdf",
+    "hasPlannings": false,
+    "fichette":{
+        "time1": "355 heures 30 jour de distanciel",
+        "time2": "12 mois 55 jour de présenciel",
+        "lieu": "33 Blanche Lande 44521 Oudon",
+        "tarifs": "à partir de 3100 €",
+        "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+        "titreVae": "VAE",
+        "vae": "Formation éligible à la validation des acquis de l'expérience"
+    },
+    "header": {
+        "title": "Formateur pour Adultes",
+        "subtitle": "Devenez un pédagogue innovant dans l'univers de la formation d'adultes",
+        "imagePath": "/formateur.webp",
+        "imageAltText": "Formateur professionnel pour adultes",
+        "description": "Envie de transmettre vos connaissances et compétences ?",
+        "descirption2": "Notre formation à distance pour devenir formateur d'adultes vous offre les clés de l'apprentissage efficace, adapté à l'auto-formation." ,
+        "description3": "Plongez dans des techniques pédagogiques éprouvées, la planification de cours, l'évaluation des apprenants et l'innovation éducative.", 
+        "description4": "Embarquez pour une carrière enrichissante qui change la vie des apprenants adultes."
+    },
+    "objectives": {
+        "title": "Objectifs de la formation pour formateurs d'adultes",
+        "list": [
+            {
+                "main": "Comprendre les principes de l'andragogie (formation des adultes)",
+                "subList": [
+                    "Étudier les théories et les modèles de l'apprentissage chez l'adulte",
+                    "Comprendre les motivations et les obstacles à l'apprentissage chez les adultes"
+                ]
+            },
+            {
+                "main": "Concevoir et planifier des séquences pédagogiques adaptées",
+                "subList": [
+                    "Créer des plans de cours structurés et efficaces",
+                    "Développer des méthodologies adaptatives pour différents styles d'apprentissage",
+                    "Intégrer des évaluations formatives et sommatives pour mesurer les progrès"
+                ]
+            },
+            {
+                "main": "Utiliser des technologies éducatives pour l'apprentissage à distance",
+                "subList": [
+                    "Se familiariser avec les outils et plateformes d'enseignement en ligne",
+                    "Concevoir des ressources pédagogiques interactives pour l'enseignement à distance"
+                ]
+            },
+            {
+                "main": "Évaluer les besoins de formation et le progrès des apprenants",
+                "subList": [
+                    "Techniques pour évaluer les besoins individuels et collectifs des apprenants",
+                    "Méthodes pour suivre et documenter le développement des compétences des apprenants"
+                ]
+            },
+            {
+                "main": "Gérer la dynamique et l'hétérogénéité d'un groupe d'adultes",
+                "subList": [
+                    "Stratégies pour gérer les groupes d'apprenants diversifiés",
+                    "Techniques de facilitation pour encourager la participation et l'engagement",
+                    "Gérer les défis comportementaux et les différences d'opinion dans un groupe"
+                ]
+            }
+        ]
+    },
+    "pricing": {
+        "completForm" : "7 000 €",
+        "registrationFee": "150 €",
+        "examFee": "200 €",
+        "paymentOption": "options de paiement flexibles",
+        "financementPerso" : "5 400 €",
+        "block1": "4 500 €",
+        "block2": "3 800 €",
+        "block3": "2 000 €",
+        "personalBlock1": "3 800 €",
+        "personalBlock2": "3 900 €",
+        "personalBlock3": "1 500 €"
+    },
+    "program": {
+        "title": "Programme de la formation",
+        "blocks": [
+            {
+                "title": "Théorique (Bloc 1) à distance : Fondamentaux de l'andragogie",
+                "hours": "120 heures",
+                "modalities": "100 h en autonomie et 20 h de visio-conférence",
+                "content": [
+                    "Psychologie de l'apprenant adulte...",
+                    "Méthodologies de formation pour adultes...",
+                    "Conception de matériel pédagogique attractif...",
+                    "Cadre légal de la formation professionnelle..."
+                ]
+            },
+            {
+                "title": "Pratique (Bloc 2) à distance : Techniques et outils de formation",
+                "hours": "130 heures",
+                "modalities": "110 h en autonomie et 20 h de sessions interactives",
+                "content": [
+                    "Utilisation d'outils numériques pour l'éducation...",
+                    "Création de modules e-learning interactifs...",
+                    "Techniques d'animation de groupe...",
+                    "Évaluation et suivi des apprenants..."
+                ]
+            },
+            {
+                "title": "Projet (Bloc 3) à distance : Mise en situation réelle",
+                "hours": "50 heures",
+                "modalities": "Projet personnel encadré",
+                "content": [
+                    "Développement d'un projet de formation...",
+                    "Mise en œuvre d'une session de formation...",
+                    "Feedback constructif et évaluation par les pairs...",
+                    "Réflexion et amélioration continues..."
+                ]
+            }
+        ]
+    },
+    "articleTitle": "formateur pour adulte",
+
+    "jobsAfterTraining": {
+        "title": "Débouchés après la formation",
+        "list": [
+            "Formateur indépendant pour adultes",
+            "Concepteur pédagogique",
+            "Coordinateur de formation en entreprise",
+            "Consultant en développement professionnel continu"
+        ]
+    },
+    "plateformeDesktop": [
+        "Cours théoriques approfondis : Nos cours théoriques ne se contentent pas de survoler les sujets, mais les explorent en profondeur. Accédez à des ressources pédagogiques complètes qui vous permettent de renforcer votre compréhension des concepts fondamentaux et d'acquérir une expertise solide dans votre domaine.",
+        "Vidéos de démonstration : La théorie prend vie à travers nos vidéos de démonstration. Visualisez des exemples pratiques et concrets qui vous aident à assimiler les concepts clés. Ces vidéos vous offrent une perspective visuelle, facilitant ainsi votre apprentissage et renforçant vos compétences pratiques.",
+        "Exercices interactifs : Chez MDS Formations, nous croyons en l'apprentissage actif. Mettez immédiatement en pratique ce que vous avez appris grâce à nos exercices interactifs stimulants. Ces activités vous permettent de consolider vos connaissances et de développer vos compétences de manière pratique.",
+        "Apprentissage à votre rythme : La flexibilité est au cœur de notre approche pédagogique. Profitez de l'apprentissage à votre rythme en explorant les cours depuis le confort de votre domicile. Cette approche vous donne la liberté d'organiser votre emploi du temps d'apprentissage selon vos préférences, tout en garantissant une compréhension approfondie des sujets abordés."
+    ],
+    "potentialStructures": {
+        "title": "Développement de carrière",
+        "list": [
+            "Organismes de formation continue",
+            "Entreprises privées (formation interne)",
+            "Freelance ou auto-entrepreneur",
+            "Institutions éducatives pour adultes"
+        ]
+    },
+
+    "certification": {
+        "title": "Professionnelle de Formateur",
+        "rncp": "RNCP 35270",
+        "level": "Niveau 5"
+    }
+},
+{
+    "id": "0009",
+    "formationLink": "fo",
+    "colorFormation" : "#F28B23",
+    "emoji" : "/femmeProfesseur.svg",
+    "hasPlannings": false,
+    "fichette":{
+        "time1": "355 heures 30 jour de distanciel",
+        "time2": "12 mois 55 jour de présenciel",
+        "lieu": "33 Blanche Lande 44521 Oudon",
+        "tarifs": "à partir de 3100 €",
+        "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+        "titreVae": "VAE",
+        "vae": "Formation éligible à la validation des acquis de l'expérience"
+    },
+    "header": {
+        "title": "Formateur Occasionnel",
+        "subtitle": "Lancez votre parcours de formateur avec notre programme intensif",
+        "imagePath": "/FO.webp",
+        "imageAltText": "Introduction à la formation professionnelle",
+        "description": "Prêt à transmettre votre savoir de manière efficace et captivante ? Notre formation express pour formateurs occasionnels est le tremplin idéal pour vous initier aux joies de l'enseignement professionnel. En deux semaines, apprenez à concevoir et animer des sessions de formation impactantes, à évaluer vos participants, et à créer des environnements d'apprentissage stimulants."
+    },
+    "objectives": {
+        "title": "Ce que vous apprendrez dans notre ::color:: formation de formateur occasionnelle::color::",
+        "list": [
+            {
+                "main": "Structurer une session de formation",
+                "subList": [
+                    "Élaborer des plans de cours clairs et efficaces",
+                    "Organiser le contenu de la formation pour maximiser l'apprentissage"
+                ]
+            },
+            {
+                "main": "Développer des matériaux pédagogiques engageants",
+                "subList": [
+                    "Concevoir des supports de cours interactifs et visuellement attrayants",
+                    "Utiliser des techniques créatives pour rendre l'apprentissage plus captivant"
+                ]
+            },
+            {
+                "main": "Gérer la dynamique de groupe",
+                "subList": [
+                    "Techniques pour encourager la participation active",
+                    "Gérer les interactions et les discussions en groupe",
+                    "Résoudre les conflits et maintenir un environnement d'apprentissage positif"
+                ]
+            },
+            {
+                "main": "Évaluer l'efficacité de la formation",
+                "subList": [
+                    "Méthodes pour mesurer les résultats d'apprentissage et l'atteinte des objectifs",
+                    "Recueillir et utiliser les retours des participants pour améliorer les sessions futures"
+                ]
+            },
+            {
+                "main": "S'adapter aux différents styles d'apprentissage",
+                "subList": [
+                    "Identifier et répondre aux divers besoins d'apprentissage des participants",
+                    "Intégrer diverses méthodes pédagogiques pour répondre à tous les styles d'apprentissage"
+                ]
+            }
+        ]
+    },
+    "pricing": {
+        "completForm" : "7 000 €",
+        "registrationFee": "50 €",
+        "examFee": "100 €",
+        "paymentOption": "paiement intégral",
+        "financementPerso" : "5 400 €",
+        "block1": "1 000 €",
+        "personalBlock1": "900 €"
+    },
+    "program": {
+        "title": "Contenu de la formation",
+        "blocks": [
+            {
+                "title": "Module intensif (2 semaines) : Devenir formateur occasionnel",
+                "hours": "70 heures",
+                "modalities": "35 h de théorie et 35 h de pratique",
+                "content": [
+                    "Principes de base de la pédagogie pour adultes...",
+                    "Création d'un plan de session de formation...",
+                    "Techniques pour encourager l'engagement et la participation...",
+                    "Introduction à l'évaluation des apprenants...",
+                    "Gestion du temps et des ressources..."
+                ]
+            }
+        ]
+    },
+    "articleTitle": "formateur occasionnel",
+
+    "jobsAfterTraining": {
+        "title": "Perspectives après la formation",
+        "list": [
+            "Formateur / Formatrice occasionnel(le)",
+            "Assistant(e) de formation",
+            "Animateur / Animatrice d'ateliers thématiques"
+        ]
+    },
+    "plateformeDesktop": [
+        "Cours théoriques approfondis : Nos cours théoriques ne se contentent pas de survoler les sujets, mais les explorent en profondeur. Accédez à des ressources pédagogiques complètes qui vous permettent de renforcer votre compréhension des concepts fondamentaux et d'acquérir une expertise solide dans votre domaine.",
+        "Vidéos de démonstration : La théorie prend vie à travers nos vidéos de démonstration. Visualisez des exemples pratiques et concrets qui vous aident à assimiler les concepts clés. Ces vidéos vous offrent une perspective visuelle, facilitant ainsi votre apprentissage et renforçant vos compétences pratiques.",
+        "Exercices interactifs : Chez MDS Formations, nous croyons en l'apprentissage actif. Mettez immédiatement en pratique ce que vous avez appris grâce à nos exercices interactifs stimulants. Ces activités vous permettent de consolider vos connaissances et de développer vos compétences de manière pratique.",
+        "Apprentissage à votre rythme : La flexibilité est au cœur de notre approche pédagogique. Profitez de l'apprentissage à votre rythme en explorant les cours depuis le confort de votre domicile. Cette approche vous donne la liberté d'organiser votre emploi du temps d'apprentissage selon vos préférences, tout en garantissant une compréhension approfondie des sujets abordés."
+    ],
+    "potentialStructures": {
+        "title": "Où exercer vos nouvelles compétences",
+        "list": [
+            "Centres de formation continue",
+            "Ateliers et séminaires d'entreprise",
+            "Formation communautaire ou bénévole"
+        ]
+    },
+
+    "certification": {
+        "title": "Attestation de Formation de Formateur Occasionnel",
+        "rncp": "Non applicable",
+        "level": "Non applicable"
+    }
+},{
+    "id": "0010",
+    "formationLink": "sst",
+    "colorFormation" : "#A8BCC0",
+    "emoji" : "/pompier.svg",
+    "hasPlannings": false,
+    "fichette":{
+        "time1": "355 heures 30 jour de distanciel",
+        "time2": "12 mois 55 jour de présenciel",
+        "lieu": "33 Blanche Lande 44521 Oudon",
+        "tarifs": "à partir de 3100 €",
+        "financement": "Prise en charge à 100% par le CPF et les autres organisme financeurs",
+        "titreVae": "VAE",
+        "vae": "Formation éligible à la validation des acquis de l'expérience"
+    },
+    "header": {
+        "title": "Sauveteur Secouriste du Travail (SST)",
+        "subtitle": "Devenez un maillon essentiel de la sécurité en entreprise",
+        "imagePath": "/SST.webp",
+        "imageAltText": "Formation SST",
+        "description": "La sécurité n'est jamais un accident. Elle est toujours le résultat d'un engagement, d'efforts et de compétences. Avec notre formation de Sauveteur Secouriste du Travail (SST), apprenez les réflexes nécessaires pour préserver la santé de vos collègues en entreprise. Cette formation vous offre les compétences pratiques pour agir efficacement lors des situations d'urgence."
+    },
+    "objectives": {
+        "title": "Objectifs de la::color:: formation SST::color::",
+        "list": [
+            {
+                "main": "Acquérir les compétences de base du secourisme",
+                "subList": [
+                    "Apprendre les techniques essentielles de réanimation cardio-pulmonaire (RCP)",
+                    "Se familiariser avec l'utilisation d'un défibrillateur externe automatisé (DEA)"
+                ]
+            },
+            {
+                "main": "Savoir réagir face à un accident du travail",
+                "subList": [
+                    "Évaluer rapidement la situation et sécuriser les lieux d'un accident",
+                    "Communiquer efficacement avec les services d'urgence"
+                ]
+            },
+            {
+                "main": "Maîtriser les gestes de premiers secours",
+                "subList": [
+                    "Pratiquer les techniques de premiers secours pour les blessures courantes",
+                    "Savoir intervenir en cas d'urgence médicale (étouffement, hémorragie, brûlure, etc.)"
+                ]
+            },
+            {
+                "main": "Connaître les procédures d'urgence en entreprise",
+                "subList": [
+                    "Identifier les protocoles d'urgence spécifiques à l'entreprise",
+                    "Comprendre le rôle du SST dans le cadre du plan d'urgence"
+                ]
+            },
+            {
+                "main": "Participer activement à la prévention des risques professionnels",
+                "subList": [
+                    "Reconnaître les dangers potentiels sur le lieu de travail",
+                    "Contribuer à la mise en œuvre des mesures préventives"
+                ]
+            }
+        ]
+    },
+    "pricing": {
+        "completForm" : "7 000 €",
+        "registrationFee": "30 €",
+        "examFee": "0 €",
+        "paymentOption": "Paiement unique",
+        "financementPerso" : "5 400 €",
+        "block1": "250 €",
+        "personalBlock1": "200 €"
+    },
+    "program": {
+        "title": "Contenu de la formation",
+        "blocks": [
+            {
+                "title": "Formation intensive (2-3 jours) : Gestes et procédures d'urgence",
+                "hours": "14 heures",
+                "modalities": "Présentiel avec simulations pratiques",
+                "content": [
+                    "Évaluation de la situation d'urgence...",
+                    "Techniques de réanimation et utilisation du défibrillateur...",
+                    "Gestion des accidents spécifiques au milieu de travail...",
+                    "Communication avec les services d'urgence...",
+                    "Prévention des accidents et maladies professionnels..."
+                ]
+            }
+        ]
+    },
+    "articleTitle": "sauveteur Secouriste du Travail ",
+
+    "jobsAfterTraining": {
+        "title": "Rôle dans l'entreprise",
+        "list": [
+            "Sauveteur Secouriste du Travail (SST)",
+            "Référent sécurité",
+            "Coordinateur des procédures d'urgence"
+        ]
+    },
+    "plateformeDesktop": [
+        "Cours théoriques approfondis : Nos cours théoriques ne se contentent pas de survoler les sujets, mais les explorent en profondeur. Accédez à des ressources pédagogiques complètes qui vous permettent de renforcer votre compréhension des concepts fondamentaux et d'acquérir une expertise solide dans votre domaine.",
+        "Vidéos de démonstration : La théorie prend vie à travers nos vidéos de démonstration. Visualisez des exemples pratiques et concrets qui vous aident à assimiler les concepts clés. Ces vidéos vous offrent une perspective visuelle, facilitant ainsi votre apprentissage et renforçant vos compétences pratiques.",
+        "Exercices interactifs : Chez MDS Formations, nous croyons en l'apprentissage actif. Mettez immédiatement en pratique ce que vous avez appris grâce à nos exercices interactifs stimulants. Ces activités vous permettent de consolider vos connaissances et de développer vos compétences de manière pratique.",
+        "Apprentissage à votre rythme : La flexibilité est au cœur de notre approche pédagogique. Profitez de l'apprentissage à votre rythme en explorant les cours depuis le confort de votre domicile. Cette approche vous donne la liberté d'organiser votre emploi du temps d'apprentissage selon vos préférences, tout en garantissant une compréhension approfondie des sujets abordés."
+    ],
+    "potentialStructures": {
+        "title": "Domaines d'intervention",
+        "list": [
+            "Toutes entreprises",
+            "Organismes publics",
+            "Associations",
+            "Collectivités territoriales"
+        ]
+    },
+
+    "certification": {
+        "title": "Sauveteur Secouriste du Travail (SST)",
+        "rncp": "Non applicable",
+        "level": "Non applicable"
+    }
+}
+
+]

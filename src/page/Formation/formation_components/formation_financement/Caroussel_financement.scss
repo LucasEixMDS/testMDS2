@@ -1,0 +1,131 @@
+@import '../../../../style/settings.scss';
+
+
+.financement{ 
+    
+
+.slider-inscription {
+    position: relative;
+    width: 100%;
+    height: 270px;
+    cursor: grab;
+    margin-top: 25px;
+
+    .slider-inscription-outer { 
+        
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+
+        .slider-inscription-inner {
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            width: auto;
+            height: 100%;
+            margin-left: 10px;
+            
+            .items {
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+                width: 159px;
+                height: 195px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 21px;
+                margin: 5px;
+                padding: 5px 15px 5px 15px;
+                box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+                background-position: center left 40%;
+                background-size: cover;
+                object-fit: cover;
+
+                .topContainer{ 
+                    width: 100%;
+                    
+                    height: 50%;
+
+                    .icon{
+                        .h2{
+                            color: $color-text;
+                            font-size: 17px;
+                            font-weight: 600;
+                            margin-top: -10px;
+                            line-height: 30px;
+                            font-family: "poppins-bold";
+                            display: block;
+
+                        }
+
+                        .date{
+                            font-size: 26px;
+                            font-weight: 400;
+                            color: $color-text;
+                            font-family: 'poppins-bold';
+                        }
+                    }
+            }
+            
+            .bottomContainer{ 
+    
+                .buttons {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    justify-content: center;
+
+                    button{
+                        display: inline-flex;
+                        padding: 4px 16px 4px 16px;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 10px;
+                        border-radius: 100px;
+                        background: rgb(255, 255, 255);
+                        border: none;
+                        color: white;
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                }
+            }
+         }
+        }
+    }
+
+    .progress-bar-inscription-outer {
+        position: absolute;
+        top: 222px;
+        left: 10px;
+        width: 90%;
+        height: 15px; // Ajustez la hauteur comme vous le souhaitez
+        border-radius: 10px;
+        background: #f4f4f4;
+    
+    
+    .prog-bar-inscription-inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%; // la largeur sera mise à jour dynamiquement
+        height: 100%;
+        border-radius: 100px;
+       
+    }
+    
+    }
+}
+}
+

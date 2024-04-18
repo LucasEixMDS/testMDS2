@@ -1,0 +1,119 @@
+@import "../../../../style/settings.scss";
+
+.formation_metier{
+    background: white;
+    padding: 10px;
+
+    h2{
+        font-size: 22px;
+        color: #4F4F4F;
+        font-family: "poppins2";
+        display: block;
+        padding-top: 20px;
+    }
+
+
+    ul {
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+       
+        
+      
+        li {
+            margin: 10px 0px 10px 0px;
+            color: var(--Gris, #4F4F4F);
+            font-size: 16px;
+            width: 90%;
+
+            .containerMobileMetier{
+                display: flex;
+                width: 100%;
+                
+                svg{
+                    margin-top: 1px;
+                }
+
+                p{
+                    padding-left: 10px ;
+                    font-size: 15px;
+                    font-family: 'poppins2';
+                    width: 100%;
+                    color: #4f4f4f;
+                
+                }
+            }
+            
+            
+
+            ul{
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+
+
+    .formation_metier{
+        padding: 20px 5% 20px 5%;
+
+        .h3{display:block;
+            padding-top: 20px;
+        }
+
+        h2{
+            margin-bottom: 40px;
+            font-size: 25px;
+        }
+
+        ul{
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style-type: none;
+
+            li{
+                margin: 5px 0 5px 0;
+                width: 50%;
+
+                .containerMobileMetier{
+                    width: 100%;
+
+                    p{
+                        font-size: 18px;
+                    }
+                }
+                .containerDesktopMetier{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    
+
+                    ul{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 30px;
+                        list-style-type: disc;
+                        margin-top: 5px;
+                        width: 100%;
+                        padding-left: 20px;
+                        
+
+                        li{
+                            margin: 2px 0 2px 0;
+                            list-style-type:  disc;
+                            font-size: 14px;
+                            width: 90%;
+                            
+                        }
+
+                    }
+                }
+                
+            }
+        }
+    }
+}

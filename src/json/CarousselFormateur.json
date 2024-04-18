@@ -1,0 +1,83 @@
+[
+    {
+        "id" : "001",
+        "idElement" : ["reflexologue", "reflexologue-a-distance" ],
+        "photo" : "/melodiePhoto.webp",
+        "text" : "Formatrice en réflexologie, massage et SST",
+        "title" : "MELODIE BALOCHE",
+        "buttonColor" : "#64B768"
+    },
+    {
+        "id" : "002",
+        "idElement" : ["reflexologue", "reflexologue-a-distance" ],
+        "photo" : "/aurelien.png",
+        "text" : "Formateur en réflexologie",
+        "title" : "AURELIEN COSSON",
+        "buttonColor" : "#CF836C"
+    },
+    {
+        "id" : "003",
+        "idElement" : ["reflexologue", "reflexologue-a-distance" ],
+        "photo" : "/carole.png",
+        "text" : "Formateur en réflexologie",
+        "title" : "CAROLE TESSIER",
+        "buttonColor" : "#E9464F"
+    },
+    {
+        "id" : "004",
+        "idElement" : ["reflexologue", "reflexologue-a-distance" ],
+        "photo" : "/laure.webp",
+        "text" : "Formateur en réflexologie",
+        "title" : "LAURE GUEILHERS",
+        "buttonColor" : "#8A88C1"
+    },
+    {
+        "id" : "005",
+        "idElement" :["prothesie-ongulaire-en-centre"],
+        "photo" : "/leaPhoto.webp",
+        "text" : "Prothesiste ongulaire",
+        "title" : "LÉA",
+        "buttonColor" : "#8A88C1"
+    },
+    {
+        "id" : "006",
+        "idElement" :  ["masseur-professionnel"] ,
+        "photo" : "/lolitaPhoto.webp",
+        "text" : "Praticien(ne) en massage",
+        "title" : "LOLITA",
+        "buttonColor" : "#FECA35"
+    },
+    {
+        "id" : "007",
+        "idElement" :  ["prothesie-ongulaire-en-ligne"],
+        "photo" : "/leaPhoto.webp",
+        "text" : "Prothesiste ongulaire",
+        "title" : "LÉA",
+        "buttonColor" : "#D7724F"
+    },
+    {
+        "id" : "008",
+        "idElement" :  ["massage-du-monde"],
+        "photo" : "/lolitaPhoto.webp",
+        "text" : "Praticien(ne) en massage",
+        "title" : "LOLITA",
+        "buttonColor" : "#F195A8"
+    },
+    {
+        "id" : "009",
+        "idElement" :  ["massage-du-monde"],
+        "photo" : "/camillePhoto.webp",
+        "text" : "Praticien(ne) en massage",
+        "title" : "CAMILLE",
+        "buttonColor" : "#3D56A7"
+    },
+    {
+        "id" : "010",
+        "idElement" :  ["masseur-professionnel"] ,
+        "photo" : "/camillePhoto.webp",
+        "text" : "Praticien(ne) en massage",
+        "title" : "CAMILLE",
+        "buttonColor" : "#A8BCC0"
+    }
+    
+]

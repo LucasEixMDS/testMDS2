@@ -1,0 +1,32 @@
+[
+    {
+        "id" : "001",
+        "articleLink" : "/different-financement",
+        "titre" : "Financement jusqu’à 100%",
+        "text" : "Différentes solutions de financement possible..."
+    },
+    {
+        "id" : "002",
+        "articleLink": "/formations-distanciel",
+        "titre" : "Plateforme en ligne gratuite",
+        "text" : "Pour compléter vos connaissances à votre rythme"
+    },
+    {
+        "id" : "003",
+        "articleLink": "/hebergement",
+        "titre" : "Dormez sur place",
+        "text" : "Une expérience de formation tout-en-un, sans soucis logistiques"
+    },
+    {
+        "id" : "004",
+        "articleLink": "/inscription",
+        "titre" : "Certification Reconnu par l'état",
+        "text" : "Garantissant la valeur de votre formation"
+    },
+    {
+        "id" : "005",
+        "articleLink": "/accompagnement-global",
+        "titre" : "Support de la formation",
+        "text" : "Expérience immersive et enrichissante"
+    }
+]

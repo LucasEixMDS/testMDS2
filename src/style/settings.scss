@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'poppins2';
+    src: url('/Poppins-Medium.woff2') format("woff2") ;
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins';
+    src: url('/Poppins-Medium.woff2') format("woff2") ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@import url("https://p.typekit.net/p.css?s=1&k=qhu5vjz&ht=tk&f=37513.37516.37518.37520.37522&a=179641991&app=typekit&e=css");
+
+@font-face {
+font-family:"poppins2";
+src:url("https://use.typekit.net/af/070c63/00000000000000007735fdb6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/070c63/00000000000000007735fdb6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/070c63/00000000000000007735fdb6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;font-stretch:normal;
+}
+
+@font-face {
+font-family:"poppins-regular";
+src:url("https://use.typekit.net/af/f2b266/00000000000000007735fdb4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/f2b266/00000000000000007735fdb4/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/f2b266/00000000000000007735fdb4/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"poppins-semiBold";
+src:url("https://use.typekit.net/af/21f608/00000000000000007735fdb2/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"),url("https://use.typekit.net/af/21f608/00000000000000007735fdb2/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"),url("https://use.typekit.net/af/21f608/00000000000000007735fdb2/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:600;font-stretch:normal;
+}
+
+@font-face {
+font-family:"poppins-bold";
+src:url("https://use.typekit.net/af/5066eb/00000000000000007735fdbb/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/5066eb/00000000000000007735fdbb/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/5066eb/00000000000000007735fdbb/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+.testPage{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+* {
+    font-family: "poppins" ;
+    
+}
+
+.backPage{
+    margin-top: 80px;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+link{
+    text-decoration: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+$color-1 : #7BC8CB;
+$color-2 : #2A8FBD;
+$color-3 : #3D56A7;
+$color-4 : #64B768;
+$color-5 : #8A88C1;
+$color-6 : #A8BCC0;
+$color-7 : #CF836C;
+$color-8 : #F195A8;
+$color-9 : #E9464F;
+$color-10 : rgb(219 131 99);
+$color-11 : #FECA35;
+$color-12 : #4F4F4F;
+
+$color-principale : $color-1;
+$color-hygiene : $color-2;
+$color-po : $color-3;
+$color-reflexo : $color-4;
+$color-prothesie : $color-5;
+$color-sst : $color-6;
+$color-massage :$color-7;
+$color-extension : $color-8;
+$color-maquillage : $color-9;
+
+$color-fpa : $color-11;
+$color-text : $color-12;
+
+@media only screen and (min-width: 1024px) {
+    .backPage{
+        margin-top: 0;
+    }
+} 
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-primary: #7BC8CB;
+  --color-secondary: #5eb2b5;
+  --color-tertiary: #3b8c8f;
+  --color-quaternary: #13777b;
+  --color-quinary: #0b3e40;
+  /*
+  --color-primary: #5192ED;
+  --color-secondary: #69A1F0;
+  --color-tertiary: #7EAEF2;
+  --color-quaternary: #90BAF5;
+  --color-quinary: #A2C4F5;
+  */
+}
